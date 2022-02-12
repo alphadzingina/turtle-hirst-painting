@@ -1,14 +1,17 @@
-import colorgram
+# import colorgram
 
-colors = colorgram.extract('image.jpg', 30)
+# colors = colorgram.extract('image.jpg', 30)
 
-rgb_colors = []
+# rgb_colors = []
 
-for color in colors:
-    r = color.rgb.r
-    g = color.rgb.g
-    b = color.rgb.b
-    new_color = (r, b, g)
-    rgb_colors.append(new_color)
+# for color in colors:
+#     r = color.rgb.r
+#     g = color.rgb.g
+#     b = color.rgb.b
+#     new_color = (r, b, g)
+#     rgb_colors.append(new_color)
 
-print(rgb_colors)
+# print(rgb_colors)
+
+color_list = [(40, 178, 7), (87, 180, 248), (219, 111, 156), (146, 81, 6), (239, 119, 45), (11, 85, 211), (12, 60, 139), (215, 177, 115), (111, 234, 104), (249, 60, 249), (55, 70, 232), (184, 246, 179), (210, 11, 103), (40, 246, 35), (159, 235, 124), (241, 37, 45), (29, 144, 121), (190, 106, 41), (138, 5, 8), (82, 253, 247), (21, 101, 6), (10, 218, 209), (94, 
+57, 9), (227, 202, 166), (213, 28, 121), (10, 49, 110)]
